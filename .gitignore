@@ -8,7 +8,6 @@ out/
 
 # AWS Amplify files
 amplify/
-# If you want to keep Amplify files, remove the above line
 
 # Terraform state files
 *.tfstate
@@ -16,10 +15,6 @@ amplify/
 
 # Terraform backup files
 *.backup
-
-# Terraform directories
-.terraform/
-aws-lambda-backend/.terraform/
 
 # Logs and debug files
 npm-debug.log*
@@ -40,3 +35,6 @@ Thumbs.db
 
 # VS Code specific files
 .vscode/
+
+# Large files
+aws-lambda-backend/function.zip
