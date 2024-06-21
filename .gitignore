@@ -17,6 +17,10 @@ amplify/
 # Terraform backup files
 *.backup
 
+# Terraform directories
+.terraform/
+aws-lambda-backend/.terraform/
+
 # Logs and debug files
 npm-debug.log*
 yarn-debug.log*
